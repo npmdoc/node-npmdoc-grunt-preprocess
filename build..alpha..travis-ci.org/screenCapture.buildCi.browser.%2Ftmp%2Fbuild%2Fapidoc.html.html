@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/jsoverson/grunt-preprocess"
-
-    >grunt-preprocess (v5.1.0)</a>
+    <a href="https://github.com/jsoverson/grunt-preprocess">grunt-preprocess (v5.1.0)</a>
 </h1>
 <h4>Preprocess HTML and JavaScript directives based off environment configuration</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-preprocess">module grunt-preprocess</a><ol>
 
@@ -92,126 +85,126 @@
     preprocess : {
       options : {
         context : {
-          globalOption : &#x22;bar&#x22;
+          globalOption : "bar"
         }
       },
       html : {
-        src : &#x27;test/fixtures/test.html&#x27;,
-        dest : &#x27;tmp/test.processed.html&#x27;,
+        src : 'test/fixtures/test.html',
+        dest : 'tmp/test.processed.html',
         options : {
           context : {
-            customOption : &#x27;foo&#x27;,
+            customOption : 'foo',
             foo: function (param) {
-              return param + &#x27;-baz&#x27;;
+              return param + '-baz';
             }
           }
         }
       },
       js : {
-        src : &#x27;test/fixtures/test.js&#x27;,
-        dest : &#x27;tmp/test.processed.js&#x27;
+        src : 'test/fixtures/test.js',
+        dest : 'tmp/test.processed.js'
       },
       coffee : {
-        src : &#x27;test/fixtures/test.coffee&#x27;,
-        dest : &#x27;tmp/test.processed.coffee&#x27;
+        src : 'test/fixtures/test.coffee',
+        dest : 'tmp/test.processed.coffee'
       },
-      &#x27;customext with srcDir&#x27;: {
+      'customext with srcDir': {
         options: {
-          type: &#x27;coffee&#x27;,
-          srcDir: &#x27;test/fixtures&#x27;
+          type: 'coffee',
+          srcDir: 'test/fixtures'
         },
-        src : &#x27;tmp/test.coffee.customext&#x27;,
-        dest : &#x27;tmp/test.processed.coffee.customext&#x27;
+        src : 'tmp/test.coffee.customext',
+        dest : 'tmp/test.processed.coffee.customext'
       },
       fileNotFoundSilentFail: {
         options: {
-          type: &#x27;coffee&#x27;,
+          type: 'coffee',
           fileNotFoundSilentFail: true
         },
-        src : &#x27;tmp/test.coffee.customext&#x27;,
-        dest : &#x27;tmp/test.processed.legacy.notfound.coffee&#x27;
+        src : 'tmp/test.coffee.customext',
+        dest : 'tmp/test.processed.legacy.notfound.coffee'
       },
       customEol: {
         options: {
-          srcEol: &#x27;\r\n&#x27;
+          srcEol: '\r\n'
         },
-        src : &#x27;test/fixtures/test.coffee&#x27;,
-        dest : &#x27;tmp/test.processed.custom.eol.coffee&#x27;
+        src : 'test/fixtures/test.coffee',
+        dest : 'tmp/test.processed.custom.eol.coffee'
       },
       deep : {
-        src : &#x27;test/fixtures/test.js&#x27;,
-        dest : &#x27;tmp/deep/directory/structure/test.processed.js&#x27;
+        src : 'test/fixtures/test.js',
+        dest : 'tmp/deep/directory/structure/test.processed.js'
       },
       multifile : {
         files : {
-          &#x27;tmp/multifile.test.processed.js&#x27;: &#x27;test/fixtures/test.js&#x27;,
-          &#x27;tmp/multifile.test.processed.coffee&#x27;: &#x27;test/fixtures/test.coffee&#x27;
+          'tmp/multifile.test.processed.js': 'test/fixtures/test.js',
+          'tmp/multifile.test.processed.coffee': 'test/fixtures/test.coffee'
         }
       },
       expanded : {
         files : {
-          &#x27;tmp/test-inline-expected.js&#x27; : &#x27;test/fixtures/inline/test.js&#x27;,
-          &#x27;tmp/test2-inline-expected.js&#x27; : &#x27;test/fixtures/inline/test2.js&#x27;
+          'tmp/test-inline-expected.js' : 'test/fixtures/inline/test.js',
+          'tmp/test2-inline-expected.js' : 'test/fixtures/inline/test2.js'
         }
       },
       inline : {
-        src : &#x27;tmp/inline-temp/*.js&#x27;,
+        src : 'tmp/inline-temp/*.js',
         options : {
           inline : true
         }
       },
-      &#x27;context-precedence-1&#x27; : {
-        src : &#x27;test/fixtures/context-precedence.js&#x27;,
-        dest : &#x27;tmp/context-precedence-result-1.js&#x27;
+      'context-precedence-1' : {
+        src : 'test/fixtures/context-precedence.js',
+        dest : 'tmp/context-precedence-result-1.js'
       },
-      &#x27;context-precedence-2&#x27; : {
+      'context-precedence-2' : {
         options : {
           context : {
-            globalOption : &#x22;foo&#x22;
+            globalOption : "foo"
           }
         },
-        src : &#x27;test/fixtures/context-precedence.js&#x27;,
-        dest : &#x27;tmp/context-precedence-result-2.js&#x27;
+        src : 'test/fixtures/context-precedence.js',
+        dest : 'tmp/context-precedence-result-2.js'
       }
     },
     jshint: {
       options: {
-        jshintrc : &#x27;.jshintrc&#x27;
+        jshintrc : '.jshintrc'
       },
-      all : [&#x27;Gruntfile.js&#x27;, &#x27;tasks/**/*.js&#x27;]
+      all : ['Gruntfile.js', 'tasks/**/*.js']
     },
     copy : {
       test : {
         files : [
-          {src : &#x27;*&#x27;, dest : &#x27;tmp/inline-temp&#x27;, expand : true, cwd : &#x27;test/fixtures/inline/&#x27;},
-          {src : &#x22;test/fixtures/test.coffee&#x22;, dest: &#x22;tmp/test.coffee.customext&#x22;}
+          {src : '*', dest : 'tmp/inline-temp', expand : true, cwd : 'test/fixtures/inline/'},
+          {src : "test/fixtures/test.coffee", dest: "tmp/test.coffee.customext"}
         ]
       }
     },
     clean : {
-      test : [&#x27;tmp&#x27;]
+      test : ['tmp']
     },
     nodeunit: {
-      tests: [&#x27;test/*_test.js&#x27;]
+      tests: ['test/*_test.js']
     }
   });
 
-  grunt.loadNpmTasks(&#x27;grunt-contrib-nodeunit&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-clean&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-copy&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jshint&#x27;);
+  grunt.loadNpmTasks('grunt-contrib-nodeunit');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
   // Load local tasks.
-  grunt.loadTasks(&#x27;tasks&#x27;);
+  grunt.loadTasks('tasks');
 
   // Default task.
-  grunt.registerTask(&#x27;test&#x27;, [&#x27;jshint&#x27;,&#x27;clean&#x27;, &#x27;fake-env&#x27;, &#x27;copy&#x27;, &#x27;preprocess&#x27;, &#x27;nodeunit&#x27;]);
+  grunt.registerTask('test', ['jshint','clean', 'fake-env', 'copy', 'preprocess', 'nodeunit']);
 
-  grunt.registerTask(&#x27;default&#x27;, [&#x27;test&#x27;]);
+  grunt.registerTask('default', ['test']);
 
-  grunt.registerTask(&#x27;fake-env&#x27;, function() {
+  grunt.registerTask('fake-env', function() {
     // create a fake env var for tests
-    process.env[&#x27;FAKEHOME&#x27;] = &#x27;/Users/joverson&#x27;;
+    process.env['FAKEHOME'] = '/Users/joverson';
   });
 
 }</pre></li>
@@ -227,3 +220,4 @@
     ]
 </div>
 </div>
+</body></html>
