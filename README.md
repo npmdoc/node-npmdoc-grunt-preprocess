@@ -1,9 +1,14 @@
-# api documentation for  [grunt-preprocess (v5.1.0)](https://github.com/jsoverson/grunt-preprocess)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-preprocess.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-preprocess) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess)
+# npmdoc-grunt-preprocess
+
+#### api documentation for  [grunt-preprocess (v5.1.0)](https://github.com/jsoverson/grunt-preprocess)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-preprocess.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-preprocess) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess)
+
 #### Preprocess HTML and JavaScript directives based off environment configuration
 
-[![NPM](https://nodei.co/npm/grunt-preprocess.png?downloads=true)](https://www.npmjs.com/package/grunt-preprocess)
+[![NPM](https://nodei.co/npm/grunt-preprocess.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-preprocess)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-preprocess_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-preprocess/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Jarrod Overson",
-        "email": "jsoverson@gmail.com",
         "url": "http://jarrodoverson.com/"
     },
     "bin": {
@@ -72,12 +76,10 @@
     "main": "Gruntfile.js",
     "maintainers": [
         {
-            "name": "jsoverson",
-            "email": "jsoverson@gmail.com"
+            "name": "jsoverson"
         },
         {
-            "name": "bendingbender",
-            "email": "semtexx@web.de"
+            "name": "bendingbender"
         }
     ],
     "name": "grunt-preprocess",
@@ -85,7 +87,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jsoverson/grunt-preprocess.git"
@@ -96,16 +97,6 @@
     "version": "5.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-preprocess](#apidoc.module.grunt-preprocess)
-
-
-
-# <a name="apidoc.module.grunt-preprocess"></a>[module grunt-preprocess](#apidoc.module.grunt-preprocess)
 
 
 
