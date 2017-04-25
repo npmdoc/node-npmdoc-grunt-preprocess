@@ -1,6 +1,6 @@
 # npmdoc-grunt-preprocess
 
-#### api documentation for  [grunt-preprocess (v5.1.0)](https://github.com/jsoverson/grunt-preprocess)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-preprocess.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-preprocess) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess)
+#### basic api documentation for  [grunt-preprocess (v5.1.0)](https://github.com/jsoverson/grunt-preprocess)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-preprocess.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-preprocess) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-preprocess)
 
 #### Preprocess HTML and JavaScript directives based off environment configuration
 
